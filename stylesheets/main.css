@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F4D8AE;
+    color: #000000;
+    margin: 0px;
+    font-family: 'Verdana';
+    transition: opacity 5s;
+}
+
+p::selection {
+    background-color: #B6C48E;
+    color: white;
+}
+
+body>div {
+    height: 100vh;
+}

@@ -1,0 +1,32 @@
+.scroll-img {
+    border: none;
+    box-shadow: 1em 1em 2em .25em rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(4em) rotateZ(-5deg);
+    transition: transform 4s .25s cubic-bezier(0, 1, .3, 1),
+        opacity .3s .25s ease-out;
+    max-width: 600px;
+    will-change: transform, opacity;
+}
+
+.scroll-img.is-visible {
+    opacity: 1;
+    transform: rotateZ(-2deg);
+}
+
+.content {
+    opacity: 0;
+    transition: transform 4s .5s cubic-bezier(0, 1, .3, 1),
+        opacity .3s .5s ease-out;
+    /* transform: translateY(4em); */
+    will-change: transform;
+}
+
+.content.is-visible {
+    opacity: 1;
+
+}
+
+/* .content {
+    
+} */
