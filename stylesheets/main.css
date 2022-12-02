@@ -1,0 +1,75 @@
+/* 
+COLOR PALLETTE
+beige #F4D8AE
+orange #DC7027
+green #B6C48E
+pink #EA8A81
+brown #301008
+*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F4D8AE;
+    color: #301008;
+    margin: 0%;
+    font-family: 'Helvetica';
+    transition: opacity 5s;
+}
+
+p::selection {
+    background-color: #B6C48E;
+    color: white;
+}
+
+div {
+    height: 100vh;
+}
+
+
+.name {
+    height: auto;
+    background-color: #EA8A81;
+}
+
+#name {
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 25%;
+
+}
+
+/* #btnSkill {
+    margin: 0;
+    position: relative;
+    left: 50%;
+} */
+
+#home {
+    color: #8f9d68;
+}
+
+#skills {
+    background-color: #B6C48E;
+}
+
+#contact {
+    background-color: #B6C48E;
+}
+
+span {
+    background-color: #B6C48E;
+}
+
+.jump-down {
+    position: absolute;
+    /* bottom: 4vh; */
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    /* animation-delay: 4s; */
+}
